@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rojofilm</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bf3ce65286.js" crossorigin="anonymous"></script>
+    <script src="javascript.js" type="text/javascript"></script>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="favicon.ico" type="img/x-icon">
+</head>
+
+<body>
+
+<div class="header" id="header">
+  <div class="container">
+    <div class="headerpolaroid">
+      <div class="polaroidframe">
+        <img src="logow.png" alt="logo">
+        <a href="#nav"><div class="startbtn">start</div></a>
+      </div>
+      <h3>Rojofilm</h3>
+    </div>
+  </div>
+  </div>
+
+<div id="navfixed">
+<div class="topnav" id="nav">
+  
+  <a href="#header" class="navlogo">Rojofilm</a>
+  <a href="#film" class="navitem">底片簡介</a>
+  <a href="#camera" class="navitem">使用相機</a>
+  <div class="dropdown">
+    <button class="dropbtn">攝影集 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#bnw">黑白底片</a>
+      <a href="#colored">彩色底片</a>
+    </div>
+  </div> 
+  <a href="#about" class="navitem">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="far fa-folder-open"></i></a>
+
+</div>
+</div>
+
+
+<div class="section" id="film">
+  <div class="container">
+  <h3 class="title titleb">底片簡介</h3>
+  </div>
+
+  <div class="container">
+
+    <div class="content-film">
+     <h5 class="fontbgpink">底片尺寸規格</h5>
+     <p>底片常見的尺寸規格以135底片及120底片為主，以135底片為主流，兩種規格的底片需各自搭配對應規格的相機使用。120底片一格尺寸約為135底片一格的四倍大</p>
+    <h5 class="fontbgpink">底片種類</h5>
+     <p>底片分為正片及負片，以負片最為普遍。負片更容易取得、價格也相對便宜，沖洗後呈負像(明暗、色調皆相反)。正片比負片細緻立體，但價格也昂貴許多，沖洗後類似幻燈片</p>
+    <h5 class="fontbgpink">底片感光度</h5>
+     <p>感光度又稱為ISO，表示底片對光的敏感程度，ISO值越高底片對光的敏感度越高，則底片需要的曝光時間就越少。市面上以100 / 200 / 400度底片最為常見，另外還有50 / 1600 / 3200度...等較不易取得</p>
+    </div>
+
+    <div class="photozone skewxr">
+      <div class="sectionframe framep">
+          <img src="images/wsf2.jpg" alt="film" width="87%">
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="nextbtn">
+<a href="#camera"><i class="fas fa-arrow-alt-circle-down"></i></a>
+</div>
+
+<div class="section" id="camera">
+  <div class="container">
+     <h3 class="title titlep">使用相機</h3>
+  </div>
+
+  <div class="container">
+    <div class="photozone skewxl">
+      <div class="sectionframewide frameb">
+          <img src="images/camera/se1.JPG" alt="" width="86%">
+      </div>
+    </div>
+    <div class="content-camera">
+      <h5 class="fontbgblue">KONICA C35</h5>
+      <p>konica於1968年推出第一台C35相機，此後陸續出產一系列C35共十多種版本。<br>手上這台是1971年出產的C35早期版本konica C35 flashmatic旁軸相機，搭載HEXANON 38mm f2.8 鏡頭，黃斑(疊影)手動對焦，沒有內建閃光燈(閃光燈可外接)，晴天拍起來很漂亮。機身小巧、輕便好攜帶，很適合生活隨拍</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="photozone skewxr">
+      <div class="sectionframewide framep">
+          <img src="images/camera/se3.jpg" alt="" width="86%">
+      </div>
+    </div>
+    <div class="content-camera">
+      <h5 class="fontbgpink">NIKON F65</h5>
+      <p>Nikon F65於2001年出產，是很近代的電子快門單眼底片相機。<br>出產時正值數位相機開始慢慢普及，Nikon F65功能已十分完備，機身面板方便操作好上手，內建的閃光燈柔順漂亮，是一台很適合入門的底片單眼</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="photozone skewxl">
+      <div class="sectionframewide frameb">
+          <img src="images/camera/se5.JPG" alt="" width="86%">
+      </div>
+    </div>
+    <div class="content-camera">
+      <h5 class="fontbgblue">PENTAX ESPIO 135M</h5>
+      <p>Pentax espio系列於1992年推出。<br>Pentax espio 135m是一台非常輕巧的傻瓜相機，自動對焦，只需要取景就可以立即拍攝，非常方便。搭配38-135mm變焦鏡頭，拍近拍遠都可以，支援日期打印、假寬景模式、自拍定時，巴掌大小卻功能齊全，非常好用</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="photozone skewxr">
+      <div class="sectionframewide framep">
+          <img src="images/camera/se4.jpg" alt="" width="86%">
+      </div>
+    </div>
+    <div class="content-camera">
+      <h5 class="fontbgpink">CANON AUTOBOY 120</h5>
+      <p>Canon autoboy 120於1999年出產，是一台輕便好用的傻瓜相機。<br>Canon autoboy 120使用38-120mm變焦鏡頭，內建彈出式閃光燈。拍照方便快速，體積小、好攜帶，具備日期打印功能，很適合記錄生活</p>
+    </div>
+  </div>
+
+
+</div>
+
+<div class="nextbtn">
+  <a href="#bnw"><i class="fas fa-arrow-alt-circle-down"></i></a>
+</div>
+
+<!-- album -->
+<div class="section" id="bnw">
+  <div class="container">
+    <h3 class="title titleg">攝影集 <i class="fas fa-arrow-right"></i> 黑白底片</h3>
+  </div>
+
+  <div class="container">
+    <div class="albumzone albumframe bnw-r-dg rotatel">
+      <img id="" src="images/bnw/b3.jpg" onclick="openModal();currentSlide(1)" alt="">
+    </div>
+    <div class="albumzone albumframe bnw-r-lg">
+      <img src="images/bnw/b1.jpg" onclick="openModal();currentSlide(2)" alt="">
+    </div>
+    <div class="albumzone albumframe bnw-r-dg rotater">
+      <img src="images/bnw/b2.jpg" onclick="openModal();currentSlide(3)" alt="">
+    </div>
+    <div class="albumzone albumframe bnw-l-lg">
+      <img src="images/bnw/s2.jpg" onclick="openModal();currentSlide(4)" alt="">
+    </div>
+    <div class="albumzone albumframe bnw-l-dg rotatel">
+      <img src="images/bnw/w6.jpg" onclick="openModal();currentSlide(5)" alt="">
+    </div>
+    <div class="albumzone albumframe bnw-l-lg">
+      <img src="images/bnw/w5.jpg" onclick="openModal();currentSlide(6)" alt="">
+    </div>
+    <div class="albumzone albumframe bnw-r-dg rotater">
+      <img src="images/bnw/b7.jpg" onclick="openModal();currentSlide(7)" alt="">
+    </div>
+    <div class="albumzone albumframe bnw-r-lg">
+      <img src="images/bnw/s1.jpg" onclick="openModal();currentSlide(8)" alt="">
+    </div>
+    <div class="albumzone albumframe bnw-r-dg rotatel">
+      <img src="images/bnw/w7.jpg" onclick="openModal();currentSlide(9)" alt="">
+    </div>
+  </div>
+    
+<span id="dots"></span>
+<span id="more">
+
+  <div class="container">
+    <div class="albumzone albumframe bnw-l-lg">
+      <img src="images/bnw/b9.jpg" onclick="openModal();currentSlide(10)" alt="">
+    </div>
+    <div class="albumzone albumframe bnw-l-dg rotater">
+      <img src="images/bnw/s3.jpg" onclick="openModal();currentSlide(11)" alt="">
+    </div>
+    <div class="albumzone albumframe bnw-l-lg">
+      <img src="images/bnw/s6.jpg" onclick="openModal();currentSlide(12)" alt="">
+    </div>
+    <div class="albumzone albumframe bnw-r-dg rotatel">
+      <img src="images/bnw/s4.jpg" onclick="openModal();currentSlide(13)" alt="">
+    </div>
+    <div class="albumzone albumframe bnw-r-lg">
+      <img src="images/bnw/s5.jpg" onclick="openModal();currentSlide(14)" alt="">
+    </div>
+    <div class="albumzone albumframe bnw-r-dg rotater">
+      <img src="images/bnw/w1.jpg" onclick="openModal();currentSlide(15)" alt="">
+    </div>
+    <div class="albumzone albumframe bnw-l-lg">
+      <img src="images/bnw/b5.jpg" onclick="openModal();currentSlide(16)" alt="">
+    </div>
+    <div class="albumzone albumframe bnw-l-dg rotatel">
+      <img src="images/bnw/w9.jpg" onclick="openModal();currentSlide(17)" alt="">
+    </div>
+    <div class="albumzone albumframe bnw-l-lg">
+      <img src="images/bnw/b4.jpg" onclick="openModal();currentSlide(18)" alt="">
+    </div>
+    <div class="albumzone albumframe bnw-r-dg rotater">
+      <img src="images/bnw/w4.jpg" onclick="openModal();currentSlide(19)" alt="">
+    </div>
+    <div class="albumzone albumframe bnw-r-lg">
+      <img src="images/bnw/w3.jpg" onclick="openModal();currentSlide(20)" alt="">
+    </div>
+    <div class="albumzone albumframe bnw-r-dg rotatel">
+      <img src="images/bnw/w2.jpg" onclick="openModal();currentSlide(21)" alt="">
+    </div>
+  </div>
+</span>
+
+<div class="container">
+<button onclick="myFunctionseemore()" id="moreBtn" class="morebtn">展開看更多</button>
+</div>
+
+<!-- Lightbox1 -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 21</div>
+      <img src="images/bnw/b3.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">2 / 21</div>
+      <img src="images/bnw/b1.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">3 / 21</div>
+      <img src="images/bnw/b2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">4 / 21</div>
+      <img src="images/bnw/s2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">5 / 21</div>
+      <img src="images/bnw/w6.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">6 / 21</div>
+      <img src="images/bnw/w5.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">7 / 21</div>
+      <img src="images/bnw/b7.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">8 / 21</div>
+      <img src="images/bnw/s1.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">9 / 21</div>
+      <img src="images/bnw/w7.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">10 / 21</div>
+      <img src="images/bnw/b9.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">11 / 21</div>
+      <img src="images/bnw/s3.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">12 / 21</div>
+      <img src="images/bnw/s6.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">13 / 21</div>
+      <img src="images/bnw/s4.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">14 / 21</div>
+      <img src="images/bnw/s5.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">15 / 21</div>
+      <img src="images/bnw/w1.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">16 / 21</div>
+      <img src="images/bnw/b5.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">17 / 21</div>
+      <img src="images/bnw/w9.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">18 / 21</div>
+      <img src="images/bnw/b4.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">19 / 21</div>
+      <img src="images/bnw/w4.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">20 / 21</div>
+      <img src="images/bnw/w3.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">21 / 21</div>
+      <img src="images/bnw/w2.jpg" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="nextbtn">
+  <a href="#colored"><i class="fas fa-arrow-alt-circle-down"></i></a>
+  </div>
+
+<div class="section" id="colored">
+  <div class="container">
+    <h3 class="title titleb">攝影集 <i class="fas fa-arrow-right"></i> 彩色底片</h3>
+  </div>
+
+  <div class="container">
+    <div class="albumzone albumframe cl-l-b rotatel">
+      <img src="images/color/a7.JPG" alt="">
+    </div>
+    <div class="albumzone albumframe cl-l-p">
+      <img src="images/color/a5.JPG" alt="">
+    </div>
+    <div class="albumzone albumframe cl-l-b rotater">
+      <img src="images/color/a6.JPG" alt="">
+    </div>
+    <div class="albumzone albumframe cl-r-p">
+      <img src="images/color/c2.JPG" alt="">
+    </div>
+    <div class="albumzone albumframe cl-r-b rotatel">
+      <img src="images/color/c4.JPG" alt="">
+    </div>
+    <div class="albumzone albumframe cl-r-p">
+      <img src="images/color/c3.JPG" alt="">
+    </div>
+    <div class="albumzone albumframe cl-l-b rotater">
+      <img src="images/color/m1.jpg" alt="">
+    </div>
+    <div class="albumzone albumframe cl-l-p">
+      <img src="images/color/f8.JPG" alt="">
+    </div>
+    <div class="albumzone albumframe cl-l-b rotatel">
+      <img src="images/color/f3.JPG" alt="">
+    </div>
+  </div>
+
+<span id="dots2"></span>
+<span id="more2">
+<div class="container">
+    <div class="albumzone albumframe cl-r-p">
+      <img src="images/color/m3.jpg" alt="">
+    </div>
+    <div class="albumzone albumframe cl-r-b rotater">
+      <img src="images/color/m6.jpg" alt="">
+    </div>
+    <div class="albumzone albumframe cl-r-p">
+      <img src="images/color/m4.jpg" alt="">
+    </div>
+    <div class="albumzone albumframe cl-l-b rotatel">
+      <img src="images/color/f2.JPG" alt="">
+    </div>
+    <div class="albumzone albumframe cl-l-p">
+      <img src="images/color/f77.JPG" alt="">
+    </div>
+    <div class="albumzone albumframe cl-l-b rotater">
+      <img src="images/color/f4.JPG" alt="">
+    </div>
+    <div class="albumzone albumframe cl-r-p">
+      <img src="images/color/h2.jpg" alt="">
+    </div>
+    <div class="albumzone albumframe cl-r-b rotatel">
+      <img src="images/color/f5.JPG" alt="">
+    </div>
+    <div class="albumzone albumframe cl-r-p">
+      <img src="images/color/h8.jpg" alt="">
+    </div>
+    <div class="albumzone albumframe cl-l-b rotater">
+      <img src="images/color/a1.JPG" alt="">
+    </div>
+    <div class="albumzone albumframe cl-l-p">
+      <img src="images/color/f6.JPG" alt="">
+    </div>
+    <div class="albumzone albumframe cl-l-b rotatel">
+      <img src="images/color/a4.JPG" alt="">
+    </div>
+    <div class="albumzone albumframe cl-r-p">
+      <img src="images/color/c5.JPG" alt="">
+    </div>
+    <div class="albumzone albumframe cl-r-b rotater">
+      <img src="images/color/f9.JPG" alt="">
+    </div>
+    <div class="albumzone albumframe cl-r-p">
+      <img src="images/color/f1.JPG" alt="">
+    </div>
+</div>
+</span>
+
+<div class="container">
+  <button onclick="myFunctionseemore2()" id="moreBtn2" class="morebtn">展開看更多</button>
+</div>
+
+
+<div class="nextbtn">
+  <a href="#about"><i class="fas fa-arrow-alt-circle-down"></i></a>
+  </div>
+
+<div class="section" id="about">
+  <div class="container">
+     <h3 class="title titlep">About</h3>
+  </div>
+
+  <div class="container">
+    <div class="photozone skewxl">
+      <div class="sectionframewide frameb">
+          <img src="images/abm2.JPG" alt="" width="86%">
+      </div>
+    </div>
+    <div class="content-about">
+      <h5 class="fontbgblue">作者簡介</h5>
+      <p>Rojo Lin，2017年於北藝暗房課首次接觸底片，從此走上底片不歸路。2019年畢業於臺北藝術大學劇場設計系，主修劇場服裝設計。<br>2020年創建Rojofilm，期望讓更多人認識底片之美，一窺底片的世界。在這個快速攝影、修圖世代，更偏愛底片的緩慢。喜愛底片純粹的質感與自然生成的色調，更著迷於沖洗前的不可預知性。</p>
+      <p style="color: #888;">聯絡資訊 : rojorojo1027@gmail.com</p>
+    </div>
+  </div>
+  
+</div>
+
+<div class="footer">
+  <div class="footercontainer">
+    <div class="footercontent">
+    <p>ROJOFILM.<br>2020 © COPYRIGHT</p>
+    <a href="#header"><img src="logow.png" alt="" width="55px"></a>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
